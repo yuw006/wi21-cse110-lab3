@@ -2,16 +2,24 @@
 <html lang="en">
  <head>
   <title>a Simple Website of mine</title>
+  <meta name="author" content="Yueqi Wang">
  </head>
   <body style="background-color: #00cc99;">
     <img src="my_pic.jpg" alt="my self portrait">
     <h2>Intro</h2>
       <div   style="border: 1px outset pink; background-color: #66ffcc; text-align: center; width = 50%; display:block;" >
         <p>I am a 4th year Computer Engineering student at UCSD. This is my lab for CSE110 <b>:)</b>.
-        <br>Click here to see my linkedin.
+         <br>Click <a href="https://www.linkedin.com/in/yueqi-wang-627561181/">here</a> to see my linkedin.
         </p>
       </div>
     <h2>Skills</h2>
+        <p> 
+           <pre> 
+           So...   
+           if you didn't click on my linkedin   
+           Here is a             shorter list
+           </pre>
+        </p>
         <table style="width:75%">
           <tr>
             <th>Skill</th>
@@ -34,25 +42,18 @@
             <th>CSE 150B</th>
           </tr>
         </table>
-      <form>
-        <label for="language">Favourite Programming Language</label><br>
-        <input type="test" id="language" name="language"><br>
-      <form>
     <h2>Things I like</h2>
         <ul>
-          <li>Ice Cream <i> recently I like coffee flavor a lot</i><li>
-          <li>Drawing<li>
-          <li>Binging Movies and Shows<li>
-          <li>Google's Minesweeper<li>
+          <li>Ice Cream <i> recently I like coffee flavor a lot</i></li>
+          <li>Drawing</li>
+          <li>Binging Movies and Shows</li>
+          <li>Google's Minesweeper</li>
         <ul>
-    <script type="text/javascript">
-      var likes = 6;
-      finction onClick(){
-        likes += 1;
-        document.getElementById("likes").innerHTML = likes;
-      };
-    </script>
-    <button type="button" onClick = "onClick()">Leave a Like</button>
-    <p> Likes: <a id="clicks">6</a></p>
+    <h1> Other Stuff </h1>
+      <p> Enough about me, heres some <strong> interactive elements </strong> </p>
+      <form>
+        <label for="language">What's your <em>Favourite</em> Programming Language</label><br>
+        <input type="test" id="language" name="language"><br>
+      <form>
   </body>
  </html>
