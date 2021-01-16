@@ -72,6 +72,17 @@
         <input type="test" id="language" name="language"><br>
       </form>
     <h3>Some other stuff</h3>
-
+         
+<button onclick="showContent()">Leave a like</button>
+<template>
+  <h2>Thank you</h2>
+</template>
+<script>
+function showContent() {
+  var temp = document.getElementsByTagName("template")[0];
+  var clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
+}
+</script>
   </body>
  </html>
