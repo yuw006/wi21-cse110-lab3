@@ -4,7 +4,7 @@
   <img src="my_pic.jpg" alt="my self portrait">
   <h2>Intro</h2>
   <h2>Skills</h2>
-    <table style="width:100%">
+    <table style="width:75%">
       <tr>
         <th>Skill</th>
         <th>Proficiency</th>
@@ -31,4 +31,13 @@
       <input type="test" id="language" name="language"><br>
     <form>
   <h2>Interests</h2>
+  <script type="text/javascript">
+    var likes = 6;
+    finction onClick(){
+      likes += 1;
+      document.getElementById("likes").innerHTML = likes;
+    };
+  </script>
+  <button type="button" onClick = "onClick()">Leave a Like</button>
+  <p> Likes: <a id="clicks">6</a></p>
 </html>
