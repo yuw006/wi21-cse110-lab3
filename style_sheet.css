@@ -14,7 +14,7 @@
 /* id */
 #icecream{
 	text-decoration: overline wavy rgb(255, 250, 205);
-	text-color: powderBlue;
+	color: powderBlue;
 }
 
 /* universal selector*/
@@ -74,7 +74,7 @@ h3 + pre{
 
 /*general sibing combinator*/
 audio ~ a{
-	text-color:crimson;
+	color:crimson;
 	border-color:#99ff99;
 	border-width:3px;
 }
@@ -103,7 +103,7 @@ p.message{
 /*media query*/
 @media only screen and (min-width: 500px) {
   h3{
-    text-color: blue;
+    background-color: blue;
   }
 }
 
