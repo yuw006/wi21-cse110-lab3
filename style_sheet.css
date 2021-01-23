@@ -44,12 +44,12 @@ img[drawing]{
 
 /*psuedo-class hover*/
 p:hover{
-	background-color: rgb(255, 250, 205):
+	background-color: rgb(255, 250, 205);
 }
 
 /*psuedo-class active*/
 li:active{
-	background-color: rgb(255, 250, 205):
+	background-color: rgb(255, 250, 205);
 }
 
 /*Descendant Combinator element element*/
@@ -92,6 +92,7 @@ button, blockquote{
 }
 
 p.message{
+	position: -webkit-sticky;
 	position: sticky;
 	background color: powderBlue;
 	top:0;
@@ -134,9 +135,10 @@ li.names{
 }
 @font-face {
   font-family: myFontsName;
+  src: url(ArchitectsDaughter-Regular.ttf);
   
 }
 
 body {
-  font-family: 'Architects Daughter', cursive;
+  font-family: myFontsName;
 }
