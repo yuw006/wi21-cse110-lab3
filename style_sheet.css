@@ -44,12 +44,12 @@ img[drawing]{
 
 /*psuedo-class hover*/
 p:hover{
-	text-align: right;
+	background-color: rgb(255, 250, 205);
 }
 
 /*psuedo-class active*/
-form:active{
-	background-color: rgb(255, 250, 205):
+li:active{
+	background-color: rgb(255, 250, 205);
 }
 
 /*Descendant Combinator element element*/
@@ -92,8 +92,10 @@ button, blockquote{
 }
 
 p.message{
+	position: -webkit-sticky;
 	position: sticky;
 	background color: powderBlue;
+	top:0;
 }
 
 /*media query*/
@@ -117,11 +119,12 @@ p.message{
 /*grid*/
 .grid-container{
 	display:grid;
-	grid-template-rows: 40vw 40vw;
-	grid-template-height:200px 30px;
+	grid-template-rows: 400px 400px;
+	grid-template-height:500px 30px;
 }
 .grid-item{
-	
+	max-width:400px;
+	max-height:500px;
 }
 
 span{
@@ -132,7 +135,8 @@ li.names{
 }
 @font-face {
   font-family: myFontsName;
-  src: url(https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap);
+  src: url(ArchitectsDaughter-Regular.ttf);
+  
 }
 
 body {
