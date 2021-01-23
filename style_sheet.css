@@ -14,7 +14,7 @@
 /* id */
 #icecream{
 	text-decoration: overline wavy rgb(255, 250, 205);
-	text-color: tomato;
+	text-color: powderBlue;
 }
 
 /* universal selector*/
@@ -81,7 +81,7 @@ audio ~ link{
 summary.ec{
 	position: relative;
 	height: 15px;
-	width: 100px;
+	width: 400px;
 	margin:auto;
 
 }
@@ -110,7 +110,6 @@ p.message{
 	justify-content: space-evenly;
 }
 .flex-item{
-	order:1;
 	align-self:auto;
 	flex-basis: 20vw;
 }
@@ -130,4 +129,12 @@ span{
 }
 li.names{
 	display:inline;
+}
+@font-face {
+  font-family: myFontsName;
+  src: url(https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap);
+}
+
+body {
+  font-family: myFontsName;
 }
