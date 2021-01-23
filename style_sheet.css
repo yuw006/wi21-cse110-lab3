@@ -1,0 +1,133 @@
+/*This is the style sheet for index.html*/
+
+/*******************************************
+ selectors
+ ******************************************/
+
+/* .class */
+.courses{
+	background-color:#99ff99;
+	border-style: dotted;
+	border-color: hsl(220, 100%, 30%);
+}
+
+/* id */
+#icecream{
+	text-decoration: overline wavy rgb(255, 250, 205);
+	text-color: tomato;
+}
+
+/* universal selector*/
+*{
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top:1px;
+	margin-bottom:1px;
+}
+
+/*element*/
+table{
+	margin: 2mm;
+	padding:10px;
+}
+
+
+/*attribute*/
+img[drawing]{
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	padding-left:4vw;
+	padding-right:4vw;
+	max-width: 20%;
+
+}
+
+/*psuedo-class hover*/
+p:hover{
+	text-align: right;
+}
+
+/*psuedo-class active*/
+form:active{
+	background-color: rgb(255, 250, 205):
+}
+
+/*Descendant Combinator element element*/
+section h2{
+	border-radius: 7pt;
+	border-style: dotted;
+	border-color: cadetBlue;
+}
+
+/*Child Combinator*/
+p > link{
+	background-color: powderBlue;
+	line-height: 2em;
+}
+
+/*adjacent Sibling combinator*/
+h3 + pre{
+	border-color:#99ff99;
+	border-width:3px;
+	border-style:solid;
+}
+
+/*general sibing combinator*/
+audio ~ link{
+	text-color:crimson;
+}
+
+/* combining two */
+summary.ec{
+	position: relative;
+	height: 15px;
+	width: 100px;
+	margin:auto;
+
+}
+
+/*selector list*/
+button, blockquote{
+	border-color:cadetBlue;
+}
+
+p.message{
+	position: sticky;
+	background color: powderBlue;
+}
+
+/*media query*/
+@media only screen and (max-width: 500px) {
+  h2{
+    text-color: darkBlue;
+  }
+}
+
+/*flex box*/
+.flex-container{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.flex-item{
+	order:1;
+	align-self:auto;
+	flex-basis: 20vw;
+}
+
+/*grid*/
+.grid-container{
+	display:grid;
+	grid-template-rows: 40vw 40vw;
+	grid-template-height:200px 30px;
+}
+.grid-item{
+	
+}
+
+span{
+	display:block;
+}
+li.names{
+	display:inline;
+}
