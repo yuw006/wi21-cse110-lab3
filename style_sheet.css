@@ -122,7 +122,8 @@ p.message{
 	grid-template-height:500px 30px;
 }
 .grid-item{
-	
+	max-width:400px;
+	max-height:500px;
 }
 
 span{
@@ -133,9 +134,9 @@ li.names{
 }
 @font-face {
   font-family: myFontsName;
-  src: url(https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap);
+  
 }
 
 body {
-  font-family: myFontsName;
+  font-family: 'Architects Daughter', cursive;
 }
