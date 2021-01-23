@@ -81,7 +81,7 @@ audio ~ link{
 summary.ec{
 	position: relative;
 	height: 15px;
-	width: 100px;
+	width: 400px;
 	margin:auto;
 
 }
@@ -129,4 +129,12 @@ span{
 }
 li.names{
 	display:inline;
+}
+@font-face {
+  font-family: myFontsName;
+  src: url(https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap);
+}
+
+body {
+  font-family: myFontsName;
 }
