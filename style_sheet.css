@@ -33,7 +33,7 @@ table{
 
 
 /*attribute*/
-img[drawing]{
+img[alt=devilstrill]{
 	padding-top: 5vh;
 	padding-bottom: 5vh;
 	padding-left:4vw;
@@ -48,7 +48,7 @@ p:hover{
 }
 
 /*psuedo-class active*/
-li:active{
+blockquote:active{
 	background-color: rgb(255, 250, 205);
 }
 
@@ -100,9 +100,9 @@ p.message{
 }
 
 /*media query*/
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 500px) {
   h2{
-    text-color: darkBlue;
+    text-color: blue;
   }
 }
 
@@ -124,8 +124,8 @@ p.message{
 	grid-template-height:500px 30px;
 }
 .grid-item{
-	max-width:400px;
-	max-height:500px;
+	max-width:300px;
+	max-height:400px;
 }
 
 span{
