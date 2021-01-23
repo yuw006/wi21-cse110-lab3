@@ -117,8 +117,8 @@ p.message{
 /*grid*/
 .grid-container{
 	display:grid;
-	grid-template-rows: 40vw 40vw;
-	grid-template-height:200px 30px;
+	grid-template-rows: 10vw 10vw;
+	grid-template-height:500px 30px;
 }
 .grid-item{
 	
