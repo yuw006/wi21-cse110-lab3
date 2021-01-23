@@ -5,16 +5,21 @@
   <title>a Simple Website of mine</title>
   <link rel="stylesheet" href="style_sheet.css">
   <meta name="author" content="Yueqi Wang">
+  <style>
+    form{background-color: blue;}
+  </style>
  </head>
  
  <body>
+   <p style="color:red;">Let's start with some music.</p>
    <audio controls><source src="tartini_devilstrill_goulding.mp3" type="audio/mpeg"></audio>
    <a href="https://www.youtube.com/watch?v=ZkX8YyA4Wp4"> another performance of it</a>
+   <img src="dts.jpg" alt="devilstrill">
    <details>
    <summary class="ec">the piece is called the devil's trill sonata</summary>
     <p class="message">As legend has it, Tartini was inspired to compose the sonata after the Devil appeared in his dream, delivering a particularly intense and magnificent violin performance.</p>
    </details>
-   <p>I am a little message<p>
+   <p class="message">I am a little message<p>
    <section>
    <h2> Introduction </h2>
     <p>I am a 4th year Computer Engineering student. This is my lab for CSE110 <b>:)</b>.        
@@ -127,8 +132,8 @@
       
       <span> What icecream and desserts do you like?</span>
       <form>
-        <label for="icecream">Icecream:</label><br>
-        <input type="text" id="ice" name="icecream"><br>
+        <label for="ice">Icecream:</label><br>
+        <input type="text" id="ice" name="ice"><br>
         <label for="dessert">Dessert:</label><br>
         <input type="text" id="dessert" name="dessert">
       </form>
