@@ -60,7 +60,7 @@ section h2{
 }
 
 /*Child Combinator*/
-div > p{
+section > span.jelly{
 	background-color: powderBlue;
 	line-height: 2em;
 }
@@ -73,7 +73,7 @@ h3 + pre{
 }
 
 /*general sibing combinator*/
-audio ~ a{
+span ~ p{
 	color:crimson;
 	border-color:#99ff99;
 	border-width:3px;
