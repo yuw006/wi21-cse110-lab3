@@ -60,7 +60,7 @@ section h2{
 }
 
 /*Child Combinator*/
-p > link{
+div > p{
 	background-color: powderBlue;
 	line-height: 2em;
 }
@@ -73,8 +73,10 @@ h3 + pre{
 }
 
 /*general sibing combinator*/
-audio ~ link{
+audio ~ a{
 	text-color:crimson;
+	border-color:#99ff99;
+	border-width:3px;
 }
 
 /* combining two */
@@ -92,9 +94,8 @@ button, blockquote{
 }
 
 p.message{
-	position: -webkit-sticky;
-	position: sticky;
-	background color: powderBlue;
+	position: fixed;
+	background-color: powderBlue;
 	top:0;
 }
 
