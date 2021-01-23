@@ -44,11 +44,11 @@ img[drawing]{
 
 /*psuedo-class hover*/
 p:hover{
-	text-align: right;
+	background-color: rgb(255, 250, 205):
 }
 
 /*psuedo-class active*/
-form:active{
+li:active{
 	background-color: rgb(255, 250, 205):
 }
 
@@ -94,6 +94,7 @@ button, blockquote{
 p.message{
 	position: sticky;
 	background color: powderBlue;
+	top:0;
 }
 
 /*media query*/
