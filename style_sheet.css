@@ -14,7 +14,7 @@
 /* id */
 #icecream{
 	text-decoration: overline wavy rgb(255, 250, 205);
-	text-color: tomato;
+	text-color: powderBlue;
 }
 
 /* universal selector*/
@@ -110,7 +110,6 @@ p.message{
 	justify-content: space-evenly;
 }
 .flex-item{
-	order:1;
 	align-self:auto;
 	flex-basis: 20vw;
 }
